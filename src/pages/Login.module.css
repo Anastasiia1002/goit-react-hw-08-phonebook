@@ -8,6 +8,11 @@
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
+  width: 330px;
+  background-color: rgba(250, 215, 248, 0.495);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
 }
 .form {
   display: flex;
