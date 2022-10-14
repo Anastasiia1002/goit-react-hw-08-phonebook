@@ -1,0 +1,53 @@
+.div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  color: #fff;
+  align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(250, 215, 248, 0.495);
+  border-radius: 10px;
+  padding: 50px 80px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+  align-items: center;
+}
+.label {
+  display: contents;
+  color: rgba(161, 41, 121, 0.607);
+}
+.buttonSub {
+  border-radius: 10px;
+  border: none;
+  background: rgba(161, 41, 121, 0.607);
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.buttonSub:hover,
+.buttonSub:focus {
+  box-shadow: 1px 1px 2px, 0 0 25px rgba(222, 37, 222, 0.441), 0 0 5px gray;
+}
+
+.input {
+  background-color: rgb(255, 250, 253);
+  border: none;
+  width: 100%;
+  height: 30px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: rgba(161, 41, 121, 0.607);
+}
